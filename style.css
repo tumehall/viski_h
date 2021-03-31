@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+body {
+    background-color: #000000;
+}
+
+.container {
+    max-width: 1600px;
+}
+
+#menubox {
+    background-image: url("menubox.png");
+    /* width: 100%;
+    height: calc(100vh - 600px); */
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* background-size: cover; */
+    display: table;
+    height: 148px;
+    margin-top: 20px;
+}
+
+#viskilogo {
+    width: 269px;
+}
+
+.viskilogo {
+    width: 269px;
+    flex-basis: 269px;
+    /*-ms-flex: 0 0 269px;
+    flex: 0 0 269px;*/
+    margin: auto;
+}
+
+.menubarlink {
+    font-family: "Caladea", serif;
+    font-weight: 400;
+    font-size: 26pt;
+    margin: auto;
+}
+
+a.menubarlink {
+    color: white;
+}
+
+.menuitems {
+    display: flex;
+    align-items: center;
+    margin-top: -18px;
+}
+
+.pudel {
+    margin-top: 105px;
+}
+
+.img-pudel {
+    width: 80%;
+}
+
+.skeem {
+    margin-top: 570px;
+}
+
+.tooted {
+    margin-top: 570px;
+    max-width: 1400px;
+}
+
+.toode {
+    max-width: 720px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tootekirjeldus {
+    border: solid 8px white;
+    border-radius: 15px;
+    display: inline-table;
+    /*float: right;*/
+    width: 400px;
+    height: 810px;
+    right: -700px;
+    top: 0px;
+    position: relative;
+    
+}
+
+.lugu {
+    margin-top: 570px;
+}
+
+#vaadid {
+    max-width: 800px
+}
+
+#itwasborn {
+    display: inline-table;
+    background-color: black;
+    margin-left: -580px;
+    font-family: "Bitter", serif;
+    font-weight: 900;
+    font-size: 100pt;
+    color: white;
+    line-height: 0.8;
+    letter-spacing: 12px;
+    padding: 20px;
+}
+
+.lugutekst {
+    margin-top: 60px;
+    font-family: "Bitter", serif;
+    font-weight: 500;
+    font-size: 42pt;
+    color: white;
+    line-height: 1.2;
+    letter-spacing: 6px;
+    padding-right: 150px;
+}
+
+.lisa {
+    margin-top: 570px;
+}
+
+.kontakt {
+    color: white;
+    font-family: "Bitter", serif;
+    text-transform: uppercase;
+    
+}
+
+#contactformtitle {
+    font-size: 24pt;
+    letter-spacing: 4px;
+    font-weight: 800;
+}
+
+.contactform input, textarea {
+    color: #858585;
+    font-size: 14pt;
+    letter-spacing: 2px;
+    font-weight: 500;
+    background-color: black;
+    border: solid 3px white;
+    border-radius: 4px;
+    margin: 12px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#form-firstname, #form-lastname, #form-country, #form-email {
+    width: 300px;
+}
+
+#form-subject, #form-yourquestion {
+    width: 628px;
+}
+
+#form-submit {
+    border: solid 3px #ff2a54;
+    background-color: #ff2a54;
+    color: black;
+    width: 340px;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #ff2a54;
+    margin-top: 340px;
+}
+
+.viskijalus {
+    font-family: "Frank Ruhl Libre", serif;
+    font-weight: 600;
+}
+
+.suurviski {
+    letter-spacing: 30px;
+    font-size: 120pt;
+    color: white;
+    top: -160px;
+    position: relative;
+}
+
+.vaikeviski {
+    font-size: 40pt;
+    letter-spacing: 10px;
+    margin-left: 70px;
+    top: -150px;
+    position: relative;
+    display: inline;
+    float: left;
+}
+
+.sotsmed {
+    max-width: 70px;
+    margin: 20px 70px;
+    top: -160px;
+    position: relative;
+    display: inline;
+    float: right;
+}
