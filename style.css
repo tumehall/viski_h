@@ -56,6 +56,7 @@ a.menubarlink {
 }
 
 .pudel {
+    text-align: center;
     margin-top: 105px;
 }
 
@@ -64,6 +65,7 @@ a.menubarlink {
 }
 
 .skeem {
+    text-align: center;
     margin-top: 570px;
 }
 
@@ -151,6 +153,7 @@ a.menubarlink {
 
 .lugu {
     margin-top: 570px;
+    max-width: 1600px;
 }
 
 #vaadid {
@@ -168,6 +171,7 @@ a.menubarlink {
     line-height: 0.8;
     letter-spacing: 12px;
     padding: 20px;
+    margin-top: 200px;
 }
 
 .lugutekst {
@@ -178,7 +182,12 @@ a.menubarlink {
     color: white;
     line-height: 1.2;
     letter-spacing: 6px;
-    padding-right: 150px;
+    padding-right: 0px;
+    margin-top: 160px;
+}
+
+.img-valamine {
+    align-items: flex-start;
 }
 
 .lisa {
