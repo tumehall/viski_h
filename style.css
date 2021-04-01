@@ -69,13 +69,25 @@ a.menubarlink {
 
 .tooted {
     margin-top: 570px;
-    max-width: 1400px;
+    max-width: 1600px;
 }
 
 .toode {
-    max-width: 720px;
+    max-width: 800px;
     margin: 0px;
     padding: 0px;
+    width: 800px;
+    height: 1140px;
+    display: table-cell;
+    background-position: center;
+}
+
+.toode1 {
+    background-image: url("images/viski1.png");
+}
+
+.toode2 {
+    background-image: url("images/viski2.png");
 }
 
 .tootekirjeldus {
