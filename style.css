@@ -90,17 +90,63 @@ a.menubarlink {
     background-image: url("images/viski2.png");
 }
 
-.tootekirjeldus {
-    border: solid 8px white;
-    border-radius: 15px;
-    display: inline-table;
-    /*float: right;*/
+.tootetiitel {
+    font-family: "Bitter", serif;
+    font-weight: 800;
+    font-size: 44pt;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 6px;
     width: 400px;
-    height: 810px;
-    right: -700px;
-    top: 0px;
-    position: relative;
-    
+    margin-top: 80px;
+}
+
+.tootetekst {
+    font-family: "Bitter", serif;
+    font-weight: 500;
+    font-size: 22pt;
+    color: white;
+    letter-spacing: 4px;
+    line-height: 1.6;
+    text-align: center;
+    width: 260px;
+    margin-top: 80px;
+}
+
+.buynow {
+    font-family: "Bitter", serif;
+    font-weight: 700;
+    font-size: 30pt;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border: solid 3px #ff2a54;
+    border-radius: 6px;
+    background-color: #ff2a54;
+    color: black;
+    width: 260px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.tootetekst hr {
+    border: solid 2px white;
+    margin: 40px -2px;
+}
+
+.tml-tiitel1 {
+    margin-left: 300px;
+}
+
+.tml-tiitel2 {
+    margin-left: 330px;
+}
+
+.tml-tekst1 {
+    margin-left: 420px;
+}
+
+.tml-tekst2 {
+    margin-left: 440px;
 }
 
 .lugu {
